@@ -1,0 +1,51 @@
+/** nav bar -1 **/
+.nav-bar1{
+    height:2rem;
+    background-color: black;
+    width:100%;
+ color:white;
+ display: flex;
+ align-items: center;
+justify-content: center;
+
+
+}
+.nav-bar1 a {
+
+
+ padding:0.2rem;
+ font-family: Arial,sans-serif;
+ font-size:0.85rem;
+}
+.nav-bar1 a:hover{
+color:rgb(169, 164, 164);
+}
+.nav-del{
+font-size: 0.95rem;
+padding-left:60px;
+width: 650px;
+    
+
+}
+.nav-ops{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.nav-login{
+    width: 200px;
+    height:2rem;
+    padding:0px;
+    background-color:rgb(240, 203, 19); 
+   
+}
+.dropbtn{
+    border:none;    
+    background-color: rgb(240, 203, 19);
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    font-family: Arial,sans-serif;
+    font-weight: 700;
+}
