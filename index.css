@@ -1,3 +1,8 @@
+*{
+    border:border-box;
+    font-family: Arial,sans-serif;
+}
+
 /** nav bar -1 **/
 .nav-bar1{
     height:2rem;
@@ -6,16 +11,14 @@
  color:white;
  display: flex;
  align-items: center;
-justify-content: center;
+justify-content: space-between;
+
 
 
 }
 .nav-bar1 a {
-
-
- padding:0.2rem;
- font-family: Arial,sans-serif;
- font-size:0.85rem;
+padding:0.4rem;
+font-size: 0.85rem;
 }
 .nav-bar1 a:hover{
 color:rgb(169, 164, 164);
@@ -23,7 +26,7 @@ color:rgb(169, 164, 164);
 .nav-del{
 font-size: 0.95rem;
 padding-left:60px;
-width: 650px;
+width: 500px;
     
 
 }
@@ -46,6 +49,298 @@ justify-content: center;
     text-align: center;
     justify-content: space-between;
     display: flex;
-    font-family: Arial,sans-serif;
+    color:black;
     font-weight: 700;
 }
+/**nav 2 starts **/
+.nav-bar2{
+    width:100%;
+    height:100px;
+    background-color:rgb(250,250,250);
+    justify-content: space-evenly;
+    align-items: center;
+    display:flex;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+.logo{
+    height :1.4 rem;
+    width:4rem;
+}
+.input{
+    background-color:rgb(228, 228, 228);
+    border:none;
+    width:200px;
+    display:flex;
+    align-items: center;
+    height:50px;
+    }
+
+.searchinput{
+    background-color:rgb(228, 228, 228);
+    border:none;
+    width:100%;
+    color: #373737;
+
+}
+.searchbtn{
+    background-color:rgb(228, 228, 228);
+    color:black;
+    border:none;
+    padding:0px;
+}
+a{
+    font-size:0.85rem;
+}
+
+/**CONNECTING BAR **/
+.connecting-bar{
+    background-color: rgb(228, 228, 228);
+    color:black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+    height: 30px;
+    align-items: center;
+    display:flex;
+    justify-content: space-evenly;
+}
+.connecting-bar:hover{
+    cursor: pointer;
+    background-color: rgb(240, 239, 239);
+    color:#373737;  
+}
+/**hero image section **/
+.hero_images{
+    position:relative;
+    text-align:center;
+    color:white;
+    
+}
+.hero_image1{
+    width:100%;
+    height: 530px;
+    object-fit: fill;
+}
+.hero_text{
+    
+    position:absolute;
+    top:30%;
+    left:35%;
+    font-weight:710;
+    padding:0px;
+    
+}
+.p1{
+ font-size: 3rem;
+text-align: center;
+}
+.p2{
+font-size: 1.5rem;
+margin:5px;
+text-align: center;
+}
+.p3{
+justify-content: center;
+color:black;
+left:50%;
+border:none;
+width:70px;
+height: 50px;
+font-weight: 700;
+align-self: center;
+margin-left: 35%;
+margin-top:5px;
+}
+.p3:hover{
+    cursor: pointer;
+    color: rgb(192, 190, 190);
+}
+#new_style{/** ONLY THE HOKA HAS A YELLOW COLOR, BUT ALL THE OTHER STYLES ARE SAME, SO I USED ID TO OVERRIDE THE COLOR **/
+ color:yellow;
+}
+.p4{
+    margin:10%;
+    font-size: 3rem;
+    text-align: center;
+}
+.p4 span{
+   color:yellow; 
+}
+.hero_image4{
+    background-color: rgb(58, 135, 207);
+    color:white;
+    object-fit: fill;
+    width:100%;
+    height:530px;
+    padding:3%; 
+    align-items: center;
+
+}
+.p5{
+    font-size: 3rem;
+    text-align: center;
+    font-weight:700;
+
+}
+#small-size{
+    font-size:1.5rem;
+}
+#tag-line{
+    font-size:0.85rem;
+    font-weight:400;
+}
+#paypal{
+    font-size: 2rem;
+    font-style: italic;
+}#fashion{
+    font-size: 0.95rem;
+}
+.p5 span{
+    background-color: navy;
+}
+#shop{
+margin-left:47%;
+}
+/**this is the start for getting a slider for all of the 4  images(slider animation) **/
+#slider{
+    overflow:hidden;
+}
+#slider figure{
+    position:relative;
+    width:300%;
+    margin:0;
+    left:0;
+    padding:0;
+    animation :20s slider infinite;
+}
+#slider .hero_images{
+float:left;
+width:33.3%;
+}
+@keyframes slider{
+    0%{left:0}
+    33%{left:0 }
+    66%{left:-100% }
+    99% {left:-200%}
+    100%{left:0}   
+}
+/** end of hero images slider animation **/
+.joining-bit{
+    height: 4rem;
+    width:100%;
+    color: black;
+    font-size:1.8rem;
+    text-align: center;
+    font-weight:750;
+    margin-top: 1rem;
+}
+/** all the trending images will come side to side **/
+.trending{
+    display:inline-flex;
+}
+/** trending image- section**/
+.trending_image{
+    width:25%;
+    height:32rem;
+    padding:0;
+    margin:0.4rem;
+    font-family: Arial,sans-serif;
+    text-align: left;
+}
+.trending_image img{
+    width:100%;
+    height:24rem;
+}
+.trending-text{
+    margin-top: 0;
+    padding-left: 0.5rem;
+    }
+.product-name{
+ font-size:1rem;
+ font-weight:700;
+ 
+}
+.brand-name{
+ font-size:0.85rem;
+}
+
+.trending-shop{
+    font-size:0.85rem;
+    font-weight:700;
+}
+.trending-shop:hover, .brand-name:hover ,.product-name:hover{
+    cursor:pointer;
+    color:rgb(99, 98, 98);
+}
+.top-pick-heading{
+    width:100%;
+    height:4rem;
+    text-align: center;
+    background-color:rgb(232, 230, 230);
+    padding:0.8rem;
+}
+/** all top pick images will come side to side **/
+.top-picks{
+    display:inline-flex;
+}
+/** top pick section **/
+.top-picks h1{
+    text-align: center;
+    padding:1rem;
+}
+.top-picks{
+    background-color:rgb(232, 230, 230);
+    height:35rem;
+    width:100%;
+    color:black;
+}
+.top-pick-collection{
+    width:25%;
+    height:32rem;
+    padding:0;
+    margin:0.4rem;
+}
+.top-pick-collection img{
+    width:90%;
+    height:18rem;
+
+}
+.product-description{
+    font-size:1.2rem;
+    font-weight:700;
+}
+.product-description:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.price{
+ font-size:1.8rem ;
+ font-weight: 700;
+}
+/** now we will do slide show for the top pick section
+#top-pick-slider{
+    overflow:hidden;
+}
+#top-pick-slider figure{
+    position:relative;
+    width:300%;
+    margin:0;
+    left:0;
+    padding:0;
+    animation :10s slider infinite;
+}
+#top-pick-slider .top-picks{
+float:left;
+width:50%;
+}
+@keyframes slider{
+    0%{left:0}
+    25%{left:0}
+    50%{left:-150%}
+    99%{left:-299%}
+
+    100%{left:0}   
+}**/
+
