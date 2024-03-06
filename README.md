@@ -10,10 +10,13 @@ I have used all the different icons in the navigation bar and the last footer us
 <img width="938" alt="head of the website" src="https://github.com/srideviparimi/Rebel/assets/161400433/a7f3a2d0-721b-4ce1-a7ae-3e826a98530c">
 
 <img width="955" alt="body 1" src="https://github.com/srideviparimi/Rebel/assets/161400433/786c079a-97ab-429c-a9c3-e5020c0837d5">
-<img width="953" alt="body 2" src="https://github.com/srideviparimi/Rebel/assets/161400433/49e6a9b5-fabc-468<img width="938" alt="footer of the website" src="https://github.com/srideviparimi/Rebel/assets/161400433/b11e3bc5-4dbe-4a08-869f-92c49fa35694">
-c-adb2-064b41e08174">
 
-![Uploading footer of the website.png…]()
+<img width="953" alt="body 2" src="https://github.com/srideviparimi/Rebel/assets/161400433/6a4be29a-d42d-42c6-9ca7-1f92a2c5e6c1">
+
+
+<img width="938" alt="footer of the website" src="https://github.com/srideviparimi/Rebel/assets/161400433/8552f495-d9f1-45ad-a746-f992c914e408">
+
+
 
 This project includes
 1. Navigation bar 1 with services
